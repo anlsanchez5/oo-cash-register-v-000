@@ -15,7 +15,7 @@ class CashRegister
       @items << item
       self.total += price
     else
-      @items << item * quantity 
+      quantity.times {@items << item}
       self.total += (price*quantity)
     end
   end
