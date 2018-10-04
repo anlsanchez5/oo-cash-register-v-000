@@ -11,7 +11,7 @@ class CashRegister
     if quantity == nil
       self.total += price
     else
-      self.total =+ (price*quantity)
+      self.total += (price*quantity)
     end
   end
 end
