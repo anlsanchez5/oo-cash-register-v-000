@@ -26,4 +26,7 @@ class CashRegister
     return "After the discount, the total comes to $#{@total.round}."
     end
   end
+
+  def items
+
 end
