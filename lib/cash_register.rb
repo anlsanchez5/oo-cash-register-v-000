@@ -12,6 +12,6 @@ class CashRegister
       self.total += price
     else
       self.total =+ (price*quantity)
-
+    end
   end
 end
