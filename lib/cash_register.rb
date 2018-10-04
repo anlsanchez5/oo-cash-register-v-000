@@ -8,6 +8,10 @@ class CashRegister
   end
 
   def add_item(title, price, quantity = nil)
+    if quantity == nil
+      self.total += price
+    else
+      self.total =+ (price*quantity)
 
   end
 end
